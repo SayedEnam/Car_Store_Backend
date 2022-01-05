@@ -24,7 +24,7 @@ async function run() {
         const usersCollection = database.collection("users");
 
         ////////////////////////
-        // USERS API HANDLING //
+        // USERS API HANDLING PART//
         //////////////////////
 
         // POSTING USER
