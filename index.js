@@ -45,7 +45,7 @@ async function run() {
             }
             res.json({ admin: isAdmin });
         })
-        // MAKING USER ADMIN
+        // MAKING USER ADMIN panel
         app.put('/users/admin', async (req, res) => {
             const user = req.body;
             const filter = { email: user.email, password: user.password };
